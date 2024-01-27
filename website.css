@@ -44,7 +44,7 @@ h1 a{
     float: left;
     font-size: 15px;
     color: #EC7243;
-    background: white url(./images/search.png) right center no-repeat;
+    background: white url(images/search.png) right center no-repeat;
 }
 #searchbox
 {
