@@ -1,0 +1,169 @@
+body{
+   font: Arial,Helvetica,sans-serif ;
+}
+
+#container
+{
+   width: 1050px; 
+   border: 1px solid grey;
+   /* float: left; */
+   margin : 0 auto;
+
+}
+h1 a{
+   font-size: 50px;
+   font-weight: 100; 
+   color: rgb(125, 12, 196);
+   text-decoration: none; /* for no underline */
+}
+#header
+{
+    height: 100px;
+    padding: 20px 0px ;
+}
+
+#brand
+{
+    /* border: 1px solid grey; */
+    float: left;
+    padding-left: 18px ;
+}
+.submit
+{
+    float:right;
+    padding: 5px;
+    font-weight: bold;
+    color: white;
+    background-color: #A751D6;
+    font-size: 15px;
+}
+.text
+{
+    width: 200px;
+    padding: 5px;
+    float: left;
+    font-size: 15px;
+    color: #EC7243;
+    background: white url(images/search.png) right center no-repeat;
+}
+#searchbox
+{
+    float: right;
+    background: linear-gradient(#BEEB64,#BEEB62);
+    width: 400px;
+    height: 50px;
+    padding: 20px 20px 0px 20px;
+    margin-top: 20px;
+}
+.clear
+{
+    clear: both;
+}
+ul
+{
+    list-style: none;
+}
+#menu{
+  height: 70px ; 
+  background:linear-gradient(#E0D344, #c0b21b ); 
+  padding: 7px 0;
+}
+#menu ul li{
+    float: left;
+    padding: 0 30px;
+    height: 30px;
+    border-right: 1px solid #5d12e7;
+}
+
+#menu ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    color:#5d12e7 ;
+    line-height:30px ;
+    transition: font-size 0.3s ease;
+    /* ease means the speed goes faster than slower */
+}
+/* to avoid the last vertical line coming after the contact us part */
+#menu ul li:last-child{
+   border-right: none; 
+}
+#menu ul li a:hover, #menu ul li a.active{
+  font-size: 20px;
+  font-weight: bolder;
+  color: #5d12e7; 
+}
+ /* a.active will set the home link as the active and default link  */
+ #introduction h3{
+    padding: 10px 40px;
+    font-size: 45px;
+    color:#255B0B;
+    font-weight: 100;
+ }
+ #introduction p{
+    color: hsl(100, 78%, 20%);
+    font-size:25px;
+    padding: 4px 40px;
+    text-align: justify;
+ }
+ #introduction{
+    padding: 30px;
+    margin: 16px 0;
+    background: linear-gradient(#D5E794,#BBDD57) ;
+ }
+ .sidebars
+ {
+    height: 500px;
+    width: 400px;
+    border: 3px solid #DAEBBF ;
+    border-radius: 20px;
+    padding: 10px 30px;
+ }
+ .sidebars h3{
+    color: purple;
+    font-size: 30px;
+ }
+ .sidebars ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    transition: font-size 0.3s ease;
+    color: purple;
+   }
+ .sidebars ul li a:hover, .sidebars ul li a:active{
+    font-size: 23px;
+  
+    text-decoration: none;
+    color: #b314db;
+    font-weight: bold;
+ }
+ #rightsidebar{
+    float: right;
+ }
+ #leftsidebar{
+    float: left;
+   
+ }
+ #leftsidebar ul li {
+    padding: 6px 0 6px 10px;
+    list-style-image: url(images/arrow.png) ;    
+ 
+ }
+ #rightsidebar ul li {
+    padding: 17px 0 17px 60px;
+    background:  url(images/tick.png) left center  no-repeat ;    
+ 
+ }
+ 
+ .sidebars ul{
+    padding-top:20px
+  
+ }
+ .footer
+ {
+height: 60px;
+background: linear-gradient(#e4d211,#f4e96a) ;
+padding: 10px 30px;
+margin-top: 15px;
+ }
+ 
+
